@@ -1,0 +1,1 @@
+export const Products = () => <h2>Products prueba</h2>

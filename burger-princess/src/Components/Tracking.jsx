@@ -1,0 +1,1 @@
+export const Tracking = () => <h2>Tracking view (prueba)</h2>
