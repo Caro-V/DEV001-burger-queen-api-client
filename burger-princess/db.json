@@ -1,44 +1,44 @@
 {
   "users": [
-      {
-          "id": 1,
-          "email": "mar@gmail.com",
-          "password": "123abc",
-          "roles": {
-              "admin": true,
-              "waiter": false,
-              "chef": false
-          }
-      },
-      {
-          "id": 2,
-          "email": "caro@gmail.com",
-          "password": "123abc",
-          "roles": {
-              "admin": true,
-              "waiter": false,
-              "chef": false
-          }
-      },
-      {
-          "id": 3,
-          "email": "waiter@gmail.com",
-          "password": "123abc",
-          "roles": {
-              "admin": false,
-              "waiter": true,
-              "chef": false
-          }
-      },
-      {
-          "id": 4,
-          "email": "chef@gmail.com",
-          "password": "123abc",
-          "roles": {
-              "admin": false,
-              "waiter": false,
-              "chef": true
-          }
+    {
+      "id": 1,
+      "email": "mar@gmail.com",
+      "password": "3e219d0a70e6653a766b770ce8cc4311",
+      "roles": {
+        "admin": true,
+        "waiter": false,
+        "chef": false
       }
+    },
+    {
+      "id": 2,
+      "email": "caro@gmail.com",
+      "password": "7fab031c0bf78dcc0cd4391df1066b8f",
+      "roles": {
+        "admin": true,
+        "waiter": false,
+        "chef": false
+      }
+    },
+    {
+      "id": 3,
+      "email": "waiter@gmail.com",
+      "password": "5372b4447f2e78ae84355b17efba3846",
+      "roles": {
+        "admin": false,
+        "waiter": true,
+        "chef": false
+      }
+    },
+    {
+      "id": 4,
+      "email": "chef@gmail.com",
+      "password": "dcaeaa5dbe3d08ff17f357166f90bcf9",
+      "roles": {
+        "admin": false,
+        "waiter": false,
+        "chef": true
+      }
+    }
   ]
 }

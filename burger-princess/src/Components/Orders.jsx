@@ -1,0 +1,1 @@
+export const Orders = () => <h2>Orders prueba</h2>
