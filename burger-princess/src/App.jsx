@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Login from './Components/Login'
-import { Orders } from './Components/Orders'
+import Orders from './Components/Orders'
 import { Products } from './Components/Products'
 import { Tracking } from './Components/Tracking'
 import { TeamMembers } from './Components/TeamMembers'
