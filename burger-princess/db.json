@@ -1,44 +1,19 @@
 {
-  "users": [
+  "posts": [
     {
-      "email": "mar@gmail.com",
-      "password": "$2a$10$jPzoX3z9QzSDuIRZnYigv.UYdLFxK.OD02mwQ52PzWZykg2I33bMW",
-      "roles": {
-        "admin": true,
-        "waiter": false,
-        "chef": false
-      },
-      "id": 1
-    },
-    {
-      "email": "caro@gmail.com",
-      "password": "$2a$10$M8InDUDQICEQk4HyUGW.mO.qtkJg7Pm9WoPKA.FZ9/A.zP1tlc.lW",
-      "roles": {
-        "admin": true,
-        "waiter": false,
-        "chef": false
-      },
-      "id": 2
-    },
-    {
-      "email": "waiter@gmail.com",
-      "password": "$2a$10$802Jx7ab7J91beKny98jA.MrEOlZ6bNa7E4zOM/XpVyMymv3J8giG",
-      "roles": {
-        "admin": false,
-        "waiter": true,
-        "chef": false
-      },
-      "id": 3
-    },
-    {
-      "email": "chef@gmail.com",
-      "password": "$2a$10$bAokWXNKpvKXNN7NoczfGOVrspWwQkOegyZTPWl1kvPyMFZiiQQDS",
-      "roles": {
-        "admin": false,
-        "waiter": false,
-        "chef": true
-      },
-      "id": 4
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }

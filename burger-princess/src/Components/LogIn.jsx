@@ -41,7 +41,7 @@ const Login = () => {
         console.log(res.data.find(element => element.email === userInput.email))
         console.log(res)
         if (!res.error) {
-          navigate('/Products')
+          navigate('/ProductsList')
         }
         console.log(res.data)
       })

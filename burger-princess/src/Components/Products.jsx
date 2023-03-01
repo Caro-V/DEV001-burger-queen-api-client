@@ -1,13 +1,17 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React, { useContext } from 'react'
 
-const Products = () => {
+const Products = ({ name, price, id, img }) => {
   return (
-    <div>
-    <Navbar></Navbar>
-    <div>Products</div>
+    <div className="item-box">
+
+      <div>{name}</div>
+      <img src={img} className="images" />
+      <div className="item-price">${price}</div>
+
+        <button className="item-add-button" onClick={() => addToCart()}>
+          + Add to cart
+        </button>
     </div>
   )
 }
-
 export default Products

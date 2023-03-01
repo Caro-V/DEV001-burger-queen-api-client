@@ -1,0 +1,30 @@
+body{
+    background-color: #C33149;
+  }
+
+  .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .item-price {
+    color: gray;
+  }
+
+  .item-add-button {
+    background-color: #5cb85c;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    height: 20px;
+  }
+
+  .images{
+    width: 8rem;
+    height: 8rem;
+    position: inherit;
+    border-radius: 5px;
+  }
