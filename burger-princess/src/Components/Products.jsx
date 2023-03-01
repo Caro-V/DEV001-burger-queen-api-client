@@ -1,1 +1,13 @@
-export const Products = () => <h2>Products prueba</h2>
+import React from 'react'
+import Navbar from './Navbar'
+
+const Products = () => {
+  return (
+    <div>
+    <Navbar></Navbar>
+    <div>Products</div>
+    </div>
+  )
+}
+
+export default Products

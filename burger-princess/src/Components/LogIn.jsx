@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import md5 from 'md5'
 import { useNavigate } from 'react-router-dom'
 
 const fakeApi = 'http://localhost:5000/users'
@@ -32,15 +31,17 @@ const Login = () => {
     }
 
     axios.get(fakeApi,
-      JSON.stringify({ email: userInput.email, password: md5(userInput.password) }),
+      JSON.stringify({ email: userInput.email, password: userInput.password }),
       {
         headers: { 'Content-Type': 'application/json' },
         withCredentials: true
       }
     )
       .then(res => {
+        console.log(res.data.find(element => element.email === userInput.email))
+        console.log(res)
         if (!res.error) {
-          navigate('/Orders')
+          navigate('/Products')
         }
         console.log(res.data)
       })

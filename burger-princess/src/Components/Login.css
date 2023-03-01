@@ -20,7 +20,7 @@
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
 }
 .side-image{
-    background-image: url("../public/logologin.png");
+    background-image: url("/logologin.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

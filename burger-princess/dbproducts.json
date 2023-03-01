@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Americano",
+      "price": 5,
+      "img": "./public/1.png",
+      "type": "Breakfast"
+    },
+    {
+      "id": "2",
+      "name": "Latte",
+      "price": 7,
+      "img": "./public/2.png",
+      "type": "Breakfast"
+    },
+    {
+      "id": "3",
+      "name": "Jam chesse sandwich",
+      "price": 10,
+      "img": "./public/3.png",
+      "type": "Breakfast"
+    },
+    {
+      "id": "4",
+      "name": "Fruit juice",
+      "price": 7,
+      "img": "./public/4.png",
+      "type": "Breakfast"
+    },
+    {
+      "id": "5",
+      "name": "Hamburger",
+      "price": 10,
+      "img": "./public/5.png",
+      "type": "LunchDinner"
+    },
+    {
+      "id": "6",
+      "name": "Double hamburger",
+      "price": 15,
+      "img": "./public/6.png",
+      "type": "LunchDinner"
+    },
+    {
+      "id": "7",
+      "name": "French fries",
+      "price": 5,
+      "img": "./public/7.png",
+      "type": "LunchDinner"
+    },
+    {
+      "id": "8",
+      "name": "Onion rings",
+      "price": 5,
+      "img": "./public/8.png",
+      "type": "LunchDinner"
+    },
+    {
+      "id": "9",
+      "name": "Water bottle 500ml",
+      "price": 5,
+      "img": "./public/9.png",
+      "type": "LunchDinner"
+    },
+    {
+      "id": "10",
+      "name": "Water bottle 750ml",
+      "price": 7,
+      "img": "./public/9.png",
+      "type": "LunchDinner"
+    },
+    {
+      "id": "11",
+      "name": "Soda 500ml",
+      "price": 7,
+      "img": "./public/10.png",
+      "type": "LunchDinner"
+    },
+    {
+      "id": "12",
+      "name": "Soda 750ml",
+      "price": 10,
+      "img": "./public/10.png",
+      "type": "LunchDinner"
+    }
+  ]
+}
