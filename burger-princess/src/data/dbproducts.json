@@ -1,4 +1,4 @@
-[
+{"products":[
     {
       "id": "1",
       "name": "Americano",
@@ -84,3 +84,4 @@
       "type": "LunchDinner"
     }
   ]
+}
