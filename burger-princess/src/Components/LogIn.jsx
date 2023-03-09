@@ -39,9 +39,8 @@ const Login = () => {
     )
       .then(res => {
         console.log(res.data.find(element => element.email === userInput.email))
-        console.log(res)
         if (!res.error) {
-          navigate('/ProductsList')
+          navigate('/Menu')
         }
         console.log(res.data)
       })
